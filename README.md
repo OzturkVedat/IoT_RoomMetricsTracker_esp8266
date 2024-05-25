@@ -1,6 +1,6 @@
 :Author: vedatoz
 :Email: ozturkvedat72@gmail.com
-:Date: 11/01/2024
+:Date: 25/05/2024
 :License: Public Domain
 
 = Project: {Room Metrics Tracker}
@@ -30,10 +30,10 @@ Upload the code contained in the .ino file to your nodeMCU esp8266 board.
   ├── IotProject_dec28a.ino       => main Arduino file
   ├── arduino_secrets.h           => header file for credentials
   ├── sketch.json                 => json file for Cloud
-  ├── thingProperties.h           => header file for binding the Cloud service to the main code
-  └── ReadMe.adoc                 => this file
- IotProj.fzz                 => fritzing file of circuit (if you want to edit the circuit on Fritzing software)
+  └── thingProperties.h           => header file for binding the Cloud service to the main code
  IotProj_circuit.png         => an image of the circuit diagram
+ IotProj.fzz                 => fritzing file of circuit (if you want to edit the circuit on Fritzing software)
+ README.md                   => this file 
  sensors.jpg                 => an image of the actual circuit
 
 
@@ -47,9 +47,3 @@ Upload the code contained in the .ino file to your nodeMCU esp8266 board.
 | Jumper Cables 
 | Resistor (for DHT-11)
 |===
-
-
-=== Help
-This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
-If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
-or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
