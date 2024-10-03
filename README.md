@@ -17,7 +17,8 @@ An IoT project that uses sensors to monitor environmental parameters, and sends 
 
 ## Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram in the `IoTProj_circuit.png` file.
+Assemble the circuit following the diagram:
+![Circuit](./assets/IotProj_circuit.png)
 
 ## Step 3: Load the code
 
@@ -31,10 +32,8 @@ IotProject_dec28a           => Arduino sketch folder
   ├── arduino_secrets.h           => header file for credentials
   ├── sketch.json                 => JSON file for Cloud
   └── thingProperties.h           => header file for binding the Cloud service to the main code
-IotProj_circuit.png         => image of the circuit diagram
 IotProj.fzz                 => Fritzing file of circuit (if you want to edit the circuit on Fritzing software)
 README.md                   => this file 
-sensors.jpg                 => image of the actual circuit
 ```
 
 ## Materials you need for this project
@@ -44,3 +43,6 @@ sensors.jpg                 => image of the actual circuit
 - LM-393 Sound Sensor
 - Jumper Cables
 - Resistor (for DHT-11)
+
+## Circuit Live Example
+![LiveCircuit](./assets/sensors.jpg)
