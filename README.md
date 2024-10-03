@@ -32,6 +32,7 @@ IotProject_dec28a           => Arduino sketch folder
   ├── arduino_secrets.h           => header file for credentials
   ├── sketch.json                 => JSON file for Cloud
   └── thingProperties.h           => header file for binding the Cloud service to the main code
+assets                      => Contains image files
 IotProj.fzz                 => Fritzing file of circuit (if you want to edit the circuit on Fritzing software)
 README.md                   => this file 
 ```
